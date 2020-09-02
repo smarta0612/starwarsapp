@@ -1,38 +1,26 @@
 .App {
   text-align: center;
-}
+  font-family: 'Architects Daughter', cursive;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+ul {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  margin: auto;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+li {
+  font-size:1.1rem;
+  width:60%;
+  display:flex;
+  justify-content:space-between;
+  list-style: none;
+  margin: 1.2rem;
+  border: 0.5rem solid #551a8b;
+  padding: 1.2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+  font-size: 1.3rem;
+  font-weight: bold;
 }
