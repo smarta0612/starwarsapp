@@ -5,7 +5,6 @@ import { getFilms } from "../lib/API";
 
 function FilmList() {
   const [filmData, setFilmData] = useState([]);
-  const [savedFilmIds, setSavedFilmIds] = useState([]);
 
   const toggleFavorite = (episode_id, isFavorite) => {
     updateSavedItems(episode_id, isFavorite);

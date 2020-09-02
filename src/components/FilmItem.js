@@ -2,13 +2,13 @@ import React from "react";
 
 function FilmItem({ film, toggleFavorite }) {
   let favBtn;
-  {
+  
     film.isFavorite
       ? (favBtn = (
           <span>
             <i
               className="fab fa-jedi-order"
-              style={{ fontSize: "2.5rem", color: "#551a8b" }}
+              style={{ fontSize: "2.5rem", color: "red" }}
             ></i>
           </span>
         ))
@@ -17,7 +17,7 @@ function FilmItem({ film, toggleFavorite }) {
             <i className="fab fa-jedi-order" style={{ fontSize: "2.5rem" }}></i>
           </span>
         ));
-  }
+  
   return (
     <li>
       <div className="title">{film.title}</div>
